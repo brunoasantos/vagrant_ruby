@@ -1,0 +1,97 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    chef-sugar (2.0.0)
+    chef_gem (0.1.0)
+    chef_handler (1.1.6)
+    dmg (2.2.0)
+    runit (1.5.10)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    windows (1.33.1)
+      chef_handler (>= 0.0.0)
+    yum (3.2.2)
+    yum-epel (0.4.0)
+      yum (~> 3.0)
+    yum-mysql-community (0.1.10)
+      yum (>= 3.0)
+
+GIT
+  remote: git://github.com/binaryphile/chef-ohmyzsh.git
+  ref: master
+  sha: 30b457296e34f7f8075a241bdde89a76aa4ac559
+  specs:
+    ohmyzsh (0.0.1)
+      build-essential (>= 0.0.0)
+      git (>= 0.0.0)
+      rvm (>= 0.0.0)
+
+GIT
+  remote: git://github.com/coroutine/chef-system_packages.git
+  ref: master
+  sha: 01e6a4f605039e21bea20b73ec4deea14d80a9f7
+  specs:
+    system_packages (0.1.1)
+
+GIT
+  remote: git://github.com/fnichol/chef-rvm.git
+  ref: master
+  sha: dd58087e7399097a9b9df4e2e7235908aace2afd
+  specs:
+    rvm (0.9.2)
+      chef_gem (>= 0.0.0)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/apt.git
+  ref: master
+  sha: ac1917c66a9d67fb4a0afeffaa92195b7385887e
+  specs:
+    apt (2.4.1)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/build-essential.git
+  ref: master
+  sha: 400968913bfa8a4a5c9783b383c3b63899f2fe72
+  specs:
+    build-essential (2.0.5)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/git.git
+  ref: master
+  sha: b1bca76aaf3a3a2131744f17f6e5087e22fa3c40
+  specs:
+    git (4.0.3)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0)
+      windows (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/mysql.git
+  ref: master
+  sha: abf418550a534cee433ded5f85a85f3296a9709e
+  specs:
+    mysql (5.3.6)
+      yum-mysql-community (>= 0.0.0)
+
+GIT
+  remote: git://github.com/opscode-cookbooks/openssl.git
+  ref: master
+  sha: b75ab471185f108a2fadc5c43efb7e2ef057ab30
+  specs:
+    openssl (2.0.1)
+      chef-sugar (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  build-essential (>= 0)
+  git (>= 0)
+  mysql (>= 0)
+  ohmyzsh (>= 0)
+  openssl (>= 0)
+  rvm (>= 0)
+  system_packages (>= 0)
+
