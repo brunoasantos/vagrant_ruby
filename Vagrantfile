@@ -38,7 +38,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         }]
       },
       system_packages: {
-        packages: 'imagemagick libmagickwand-dev tmux vim'
+        packages: 'imagemagick libmagickwand-dev tmux vim libmysql-ruby'
       }
     }
 
