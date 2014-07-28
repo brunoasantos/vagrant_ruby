@@ -28,7 +28,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       rvm: {
         user_installs: [{
           user: 'vagrant',
-          rubies: ['2.1.2', '1.9.3-p547', '1.8.7-p374'],
+          rubies: ['2.1.2', '1.9.3', '1.8.7'],
           global: '2.1.2',
           gems: {
             '2.1.2' => [
