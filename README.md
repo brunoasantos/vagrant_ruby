@@ -54,6 +54,7 @@ Here's a rundown of what it's doing:
 	* ruby (latest version of 2.1.2, 1.9.3 and 1.8.7)
 	* imagemagick with dev libraries (libmagickwand-dev)
 	* nodejs
+	* sqlite
 	* vim
 * configuring the root mysql user with no password
 
