@@ -1,0 +1,10 @@
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apt', git: 'git://github.com/opscode-cookbooks/apt.git'
+cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git'
+cookbook 'git', git: 'git://github.com/opscode-cookbooks/git.git'
+cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
+cookbook 'ohmyzsh', git: 'git://github.com/binaryphile/chef-ohmyzsh.git'
+cookbook 'openssl', git: 'git://github.com/opscode-cookbooks/openssl.git'
+cookbook 'rvm', git: 'git://github.com/fnichol/chef-rvm.git'
+cookbook 'system_packages', git: 'git://github.com/coroutine/chef-system_packages.git'
