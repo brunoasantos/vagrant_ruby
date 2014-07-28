@@ -18,6 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe 'mysql::server'
     chef.add_recipe 'ohmyzsh'
     chef.add_recipe 'system_packages'
+    chef.add_recipe 'nodejs'
 
     chef.json = {
       mysql: {
